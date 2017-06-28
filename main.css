@@ -41,6 +41,13 @@ h2 {
 	margin-top: 0;
 }
 
+h3 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
 a {
 	color: #3a3a3a;
 	text-decoration: none;
@@ -113,6 +120,24 @@ header {
 	font-style: italic;
 	font-size: 12px;
 	padding-left: 15px;
+}
+
+.proj-container {
+  display: flex;
+}
+
+.proj-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.proj-header {
+  display: flex;
+  text-align: center;
+}
+
+.proj-bullets {
+  list-style: georgian;
 }
 
 /* About
