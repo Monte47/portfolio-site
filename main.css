@@ -1,8 +1,9 @@
 html, body {
 	background: #fff;
-	color: #3a3a3a;
+	color: #2e2e2e;
 	margin: 0;
 	padding: 0;
+  background-image: url("./assets/pattern.svg");
 }
 
 .container {
@@ -34,7 +35,7 @@ h1 {
 }
 
 h2 {
-	font-size: 22px;
+	font-size: 36px;
 	font-weight: 600;
 	letter-spacing: 1px;
 	margin-bottom: 20px;
@@ -42,7 +43,7 @@ h2 {
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 200;
   letter-spacing: 1px;
   margin-bottom: 10px;
@@ -129,15 +130,24 @@ header {
 .proj-detail {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .proj-header {
   display: flex;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .proj-bullets {
-  list-style: georgian;
+  list-style: initial;
+  margin-left: 50px;
+}
+
+.skill-icon {
+  height: 100px;
+  width: 80px;
 }
 
 /* About
