@@ -144,7 +144,7 @@ header {
 .proj-header {
   display: flex;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -159,6 +159,10 @@ header {
 .skill-icon {
   height: 100px;
   width: 80px;
+}
+
+.logos {
+  margin: 10px;
 }
 
 #postgres {
