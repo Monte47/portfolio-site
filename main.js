@@ -2,13 +2,9 @@ $(document).ready(function(){
   $("#ss").hover(function(){
     $("#ss-detail").fadeIn(700);
   });
-});
-$(document).ready(function(){
   $("#ct").hover(function(){
     $("#ct-detail").fadeIn(700);
   });
-});
-$(document).ready(function(){
   $("#bltn").hover(function(){
     $("#bltn-detail").fadeIn(700);
   });

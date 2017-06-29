@@ -161,6 +161,11 @@ header {
   width: 80px;
 }
 
+#postgres {
+  height: 64px;
+  width: 64px;
+}
+
 /* About
 /*-----------------------*/
 .about {
