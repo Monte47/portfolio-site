@@ -123,11 +123,18 @@ header {
 	padding-left: 15px;
 }
 
+.project {
+  margin-top: 40px;
+}
+
 .proj-container {
   display: flex;
 }
 
 .proj-detail {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-left: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -153,6 +160,7 @@ header {
 /* About
 /*-----------------------*/
 .about {
+  margin-left: 10%;
 	margin-bottom: 30px;
 }
 
