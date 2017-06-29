@@ -1,3 +1,13 @@
+// $(document).ready(function(){
+//     $("#ss").hover(function(){
+//         $("#ss-detail").fadeIn();
+//         // $("#div2").fadeIn("slow");
+//         // $("#div3").fadeIn(3000);
+//     });
+// });
+//
+// var ss = document.querySelector()
+
 // var header = document.querySelector('header');
 //
 // // FSS
