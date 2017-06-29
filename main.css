@@ -25,7 +25,7 @@ section, footer {
 }
 
 h1 {
-	color: #3a3a3a;
+	color: #2e2e2e;
 	font-family: 'Oswald', sans-serif;
 	font-size: 90px;
 	font-weight: 400;
@@ -50,12 +50,12 @@ h3 {
 }
 
 a {
-	color: #3a3a3a;
+	color: #2e2e2e;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #34A9FF;
+  color: #FF1053;
 }
 
 ul {
@@ -92,11 +92,11 @@ header {
 }
 
 .social li a {
-	color: #3a3a3a;
+	color: #2e2e2e;
 }
 
 .social li a:hover {
-	color: #34A9FF;
+	color: #FF1053;
 }
 
 .social span {
@@ -110,11 +110,11 @@ header {
 }
 
 .work a {
-	color: #3a3a3a;
+	color: #2e2e2e;
 }
 
 .work a:hover {
-	color: #34A9FF;
+	color: #FF1053;
 }
 
 .work span {
@@ -157,7 +157,7 @@ header {
 }
 
 .about p {
-	color: #3a3a3a;
+	color: #2e2e2e;
 	font-size: 16px;
 	line-height: 22px;
 }
@@ -177,7 +177,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-	border-top: 1px solid #999;
+	border-top: 1px solid #2e2e2e;
 	font-size: 12px;
 	margin: 25px auto 25px auto;
 	padding-top: 20px;
