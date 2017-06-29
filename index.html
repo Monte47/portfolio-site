@@ -4,29 +4,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<title>Monte Jiran</title>
-	<link rel="shortcut icon" href="favicon.png" type="image/icon">
-	<link rel="icon" href="favicon.ico" type="image/icon">
+	<!-- <link rel="shortcut icon" href="favicon.png" type="image/icon"> -->
+	<!-- <link rel="icon" href="favicon.ico" type="image/icon"> -->
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="./main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script>
-  $(document).ready(function(){
-    $("#ss").hover(function(){
-      $("#ss-detail").fadeIn(700);
-    });
-  });
-  $(document).ready(function(){
-    $("#ct").hover(function(){
-      $("#ct-detail").fadeIn(700);
-    });
-  });
-  $(document).ready(function(){
-    $("#bltn").hover(function(){
-      $("#bltn-detail").fadeIn(700);
-    });
-  });
-  </script>
 </head>
 <body>
 	<div class="container">
@@ -52,7 +35,7 @@
 				<h2>Projects</h2>
 				<div class="projects">
 
-          <h3 class="project"><a href="http://www.superscrolls.com/" target="_blank">SuperScrolls </a></h3>
+          <h3 class="project" ><a href="http://www.superscrolls.com/" target="_blank">SuperScrolls </a></h3>
           <div class="proj-container" id="ss">
             <a href="http://www.superscrolls.com/" target="_blank">
               <img src="http://res.cloudinary.com/dbc0rv0hu/image/upload/v1498688465/Screen_Shot_2017-06-28_at_3.19.35_PM_wr3rcc.png" alt="super scrolls" height="300" width="500">
@@ -61,17 +44,18 @@
               <p class="proj-header">
                 Full stack, Single Page web application that lets users browse and track books using Rails and React.
               </p>
-              <ul class="proj-bullets">
-                <li>Implemented optimized algorithm which produces dynamically generated book suggestions based on aggregate user data</li>
-                <li>Utilized SQL query logic for rapid search functionality navigable at all points in the app</li>
-                <li>Integrated a responsive UI which includes reflexive CSS animations and infinite scrolling feature triggered by user page browsing</li>
-              </ul>
+              <p class="proj-desc">
+                SuperScrolls implements hand rolled auth and produces dynamically generated book suggestions based on aggregate user data. Users can track, categorize, like, review, and add their favorite books.
+              </p>
+              <p class="proj-desc">
+                 The app integrates a responsive UI with reflexive CSS animations and infinite scrolling. Users can search for books at any point in the app navigation bar.
+              </p>
             </div>
 
           </div>
 
 
-          <h3 class="project"><a href="https://monte47.github.io/ChromeTunes/" target="_blank">ChromeTunes </a></h3>
+          <h3 class="project" ><a href="https://monte47.github.io/ChromeTunes/" target="_blank">ChromeTunes </a></h3>
           <div class="proj-container" id="ct">
             <a href="https://monte47.github.io/ChromeTunes/" target="_blank">
               <img src="http://res.cloudinary.com/dbc0rv0hu/image/upload/v1498688956/Screen_Shot_2017-06-28_at_3.25.45_PM_d6ryya.png" alt="chrome tunes" height="300" width="500">
@@ -80,28 +64,28 @@
               <p class="proj-header">
                 Interactive audio-visual Javascript application.
               </p>
-              <ul class="proj-bullets">
-                <li>Generated sound functionality programmatically using the JavaScript Web Audio API</li>
-                <li>Used HTML5 Canvas and Javascript logic to render dynamic animations on user input</li>
-              </ul>
+              <p class="proj-desc">
+                ChromeTunes was built using HTML 5 Canvas and JavaScript. It generates sounds programatically using the JavaScript Web Audio API. Users can change type and key to play different ranges of sounds.
+              </p>
             </div>
           </div>
 
 
-          <h3 class="project"><a href="https://ericwindmill.github.io/later-chat-demo/" target="_blank">Bulletin </a></h3>
+          <h3 class="project" ><a href="https://ericwindmill.github.io/later-chat-demo/" target="_blank">Bulletin </a></h3>
           <div class="proj-container" id="bltn">
             <a href="https://ericwindmill.github.io/later-chat-demo/" target="_blank">
               <img src="http://res.cloudinary.com/dbc0rv0hu/image/upload/v1498689128/Screen_Shot_2017-06-28_at_3.31.28_PM_xxxnwi.png" alt="bulletin" height="300" width="500">
             </a>
             <div class="proj-detail" id="bltn-detail" style="display:none">
               <p class="proj-header">
-                Full stack, mobile web application that allows users to drop messages at locations nearby
+                Full stack, React Native / Rails mobile web application that allows users to drop messages at nearby landmarks
               </p>
-              <ul class="proj-bullets">
-                <li>Utilized native geolocation and Google Places API to fetch locations nearby</li>
-                <li>Provided flat redux state to cleanly manage and manipulate followers, messages, and locations</li>
-                <li>Integrated native camera to allow users to take and share pictures</li>
-              </ul>
+              <p class="proj-desc">
+                Bulletin utilizes native geolocation and the Google Places API to fetch locations nearby. Users can follow each other and send notes and pictures using the native camera and map.
+              </p>
+              <p class="proj-desc">
+                Users receive notifications when they are in range of a place with a note waiting for them. They can then send their own note to their friends or to a public board.
+              </p>
             </div>
           </div>
 
@@ -134,6 +118,6 @@
 		</footer>
 	</div>
 	<!-- <script src='js/fss.min.js'></script> -->
-	<script src='js/main.js'></script>
+	<script src='main.js'></script>
 </body>
 </html>
