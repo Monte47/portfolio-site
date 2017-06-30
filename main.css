@@ -209,6 +209,12 @@ header {
   margin-right: 50px;
 }
 
+.foot-detail-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 /* Media Queries
 /*-----------------------*/
 @media (max-width: 640px) {
